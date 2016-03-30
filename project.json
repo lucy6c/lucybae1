@@ -1,0 +1,10 @@
+{
+    "name": "lucybae1",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "lucybae1.xml",
+    "author": "lucy6c",
+    "minimum_firmware_version": 42
+}
