@@ -1,33 +1,33 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="214" inline="true" x="124" y="84">
+  <block type="controls_repeat" id="1" inline="true" x="130" y="97">
     <value name="TIMES">
-      <block type="math_number" id="207">
+      <block type="math_number" id="2">
         <field name="NUM">5</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="comment_comment" id="2">
+      <block type="comment_comment" id="3">
         <field name="TEXT">Lucy is awesome</field>
         <next>
-          <block type="movement_forward" id="163">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="oled_color" id="82">
+              <block type="oled_color" id="5">
                 <field name="OBJECT">GREEN</field>
                 <next>
-                  <block type="movement_forward" id="133">
+                  <block type="movement_forward" id="6">
                     <next>
-                      <block type="oled_linerect" id="97">
+                      <block type="oled_linerect" id="7">
                         <field name="OBJECT">RECT</field>
                         <next>
-                          <block type="movement_forward" id="153">
+                          <block type="movement_forward" id="8">
                             <next>
-                              <block type="oled_drawtext" id="106">
+                              <block type="oled_drawtext" id="9">
                                 <field name="TEXT">lucy</field>
                                 <next>
-                                  <block type="comment_comment" id="116">
+                                  <block type="comment_comment" id="10">
                                     <field name="TEXT">Lucy want to go home</field>
                                     <next>
-                                      <block type="movement_stutter" id="143"></block>
+                                      <block type="movement_stutter" id="11"></block>
                                     </next>
                                   </block>
                                 </next>
